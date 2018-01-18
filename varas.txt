@@ -1,0 +1,20 @@
+
+git config --global user.name "bmadriz"
+
+git config --global user.email "b.madriz@cgiar.org"
+
+git clone https://github.com/bmadriz/Tutorial_Bioversity.git
+
+cd Tutorial_Bioversity
+
+ls
+
+git status
+
+git add varas.txt
+
+git status
+
+git commit -m "pruebita"
+
+git push -u origin master
